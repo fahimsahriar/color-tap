@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jQuery.js"></script>
+    <script src="ujn.js"></script>
+
+  </head>
+  <body>
+    <h1>Click to color the box</h1>
+    <!----New part--->
+
+    <div class="mainbox">
+      <div class="box" >
+        
+      </div>
+      <div class="box" style="left: 134px">
+        
+      </div>
+      <div class="box" style="top: 205px">
+        
+      </div>
+      <div class="box" style="top: 205px; left: 134px;">
+        
+      </div>
+    </div>
+    <button id="Reset1">Reset</button>
+
+
+    <script type="text/javascript">
+      /*$(document).ready(function(){
+        $("#Reset2").click(function(){
+          //alert("Your name is "+$("#this").val());
+          $("h1").toggleClass("newclass2");
+        });
+        $("input").on("keypress",function(){
+          $("h1").toggleClass("newclass2");
+        })
+        $(".box").click(function(){
+          $(".box").removeClass("newclass3");
+          $(this).toggleClass("newclass");
+        });
+        $("#Reset1").click(function(){
+          $(".box").addClass("newclass3");
+        });
+      });*/
+
+     /*jQuery Effects--->*/
+
+      /*$(document).ready(function(){
+        $("#hide").click(function(){
+          $("#imgid").hide();
+        });
+        $("#show").click(function(){
+          $("#imgid").show();
+        });
+      });*/
+
+      /*fadeIn() fadeOut()*/
+
+      /*jQuery UI*/
+
+    </script>
+    
+    <style type="text/css">
+      .newclass{
+        background: red;
+      }
+      .newclass3{
+        background: white;
+      }
+      .newclass2{
+        color:green;
+        background: red;
+      }
+      .mainbox{
+        border: 2px solid red;
+        height: 244px;
+        width: 244px;
+      }
+      .box{
+        position: absolute;
+        float: left;
+        height: 120px;
+        width: 120px;
+        border: 2px solid black;
+      }
+      #dra{
+        height: 200px;
+        width: 200px;
+        background: blue;
+      }
+    </style>
+    
+
+  </body>
+</html>
